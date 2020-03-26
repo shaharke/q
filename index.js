@@ -8,7 +8,7 @@ async function main() {
   program
     .version(version);
 
-  const commandsDirectory = fs.opendirSync('./lib/commands');
+  const commandsDirectory = fs.opendirSync(`${__dirname}/lib/commands`);
   for await (const commandFile of commandsDirectory) {
     const command = require(`./lib/commands/${commandFile.name}`);
     command(program);
