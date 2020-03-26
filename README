@@ -3,7 +3,7 @@
 ## Install
 
 ```
-npm install -g kafka-cli
+npm install -g kafka-shell
 ```
 
 ## Usage
