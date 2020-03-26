@@ -1,0 +1,15 @@
+# Q: Command Line Tool for Kafka
+
+## Install
+
+```
+npm install -g kafka-cli
+```
+
+## Usage
+
+```
+q help
+```
+
+
