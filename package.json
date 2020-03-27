@@ -1,6 +1,6 @@
 {
   "name": "kafka-shell",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Command line tool for working with Kafka",
   "main": "index.js",
   "author": "Shahar Kedar",
